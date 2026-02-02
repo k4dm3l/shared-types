@@ -1,0 +1,16 @@
+export enum Errors {
+  NOT_FOUND_ERROR = 'NotFoundError',
+  BUSINESS_ERROR = 'BusinessError',
+  FORBIDDEN_ERROR = 'ForbiddenError',
+  SERVER_ERROR = 'ServerError',
+  UNAUTHORIZED_ERROR = 'UnauthorizedError',
+  BAD_REQUEST_ERROR = 'BadRequestError',
+  UNPROCESSABLE_ENTITY_ERROR = 'UnprocessableEntityError',
+  TOO_MANY_REQUESTS_ERROR = 'TooManyRequestsError',
+  INTERNAL_SERVER_ERROR = 'InternalServerError',
+  SERVICE_UNAVAILABLE_ERROR = 'ServiceUnavailableError',
+  GATEWAY_TIMEOUT_ERROR = 'GatewayTimeoutError',
+  BAD_GATEWAY_ERROR = 'BadGatewayError',
+  PRECONDITION_FAILED_ERROR = 'PreconditionFailedError',
+  PAYLOAD_TOO_LARGE_ERROR = 'PayloadTooLargeError',
+}

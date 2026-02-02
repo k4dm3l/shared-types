@@ -1,0 +1,15 @@
+export enum Collections {
+  TRM_RATES = 'trm_rates',
+  NEWS = 'news',
+  NEWS_LIKES = 'news_likes',
+  SYNC_TRM_CHANGELOG = 'sync_trm_changelog',
+  SYNC_NEWS_CHANGELOG = 'sync_news_changelog',
+  SNAPSHOTS_RATES = 'snapshots_rates',
+  SYNC_SNAPSHOTS_RATES_CHANGELOG = 'sync_snapshots_rates_changelog',
+  USERS = 'users',
+  THRESHOLDS = 'thresholds',
+  THRESHOLD_SUBSCRIPTIONS = 'threshold_subscriptions',
+  NOTIFICATION_HISTORY = 'notification_history',
+  SNAPSHOTS_HISTORY = 'snapshots_history',
+  AUDIT_HISTORY = 'audit_history',
+}

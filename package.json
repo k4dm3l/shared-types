@@ -1,0 +1,37 @@
+{
+  "name": "@trm-market-pulse/shared-types",
+  "version": "1.0.0",
+  "description": "Shared types, enums, and interfaces for TRM Market Pulse projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "types",
+    "typescript",
+    "shared"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0"
+  },
+  "peerDependencies": {
+    "express": "^5.1.0",
+    "winston": "^3.18.3",
+    "mongodb": "^6.2.0"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
+
