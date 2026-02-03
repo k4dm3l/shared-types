@@ -1,6 +1,6 @@
 {
   "name": "@trm-market-pulse/shared-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared types, enums, and interfaces for TRM Market Pulse projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,7 +31,7 @@
     "mongodb": "^6.2.0"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
 
