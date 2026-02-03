@@ -34,6 +34,7 @@ export * from './interfaces/entities/IThreshold.interface';
 export * from './interfaces/entities/IThresholdSubscription.interface';
 export * from './interfaces/entities/ITrmRate.interface';
 export * from './interfaces/entities/IUser.interface';
+export * from './interfaces/entities/ITRMRecord.interface';
 
 // Interfaces - General
 export * from './interfaces/general/IApiResponse';
