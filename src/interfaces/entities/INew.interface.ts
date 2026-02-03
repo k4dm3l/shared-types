@@ -19,6 +19,8 @@ export interface INew {
     sentiment: string;
     sentimentReasoning: string;
   }[];
-  likes: number;
   syncedAt: Date;
+  likes: number;
+  source: string;
+  type: string;
 }

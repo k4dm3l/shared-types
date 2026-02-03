@@ -11,6 +11,8 @@ export * from './enums/roles';
 export * from './enums/subscriptions';
 export * from './enums/treshold-condition';
 export * from './enums/trm-filter-date';
+export * from './enums/news-types';
+export * from './enums/news-source';
 
 // Errors
 export { default as BaseError } from './errors/BaseError';

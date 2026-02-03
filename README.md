@@ -2,6 +2,12 @@
 
 Shared types, enums, and interfaces for TRM Market Pulse projects.
 
+## How to publish a new version?
+
+   ```bash
+   npm publish --access public --scope=@trm-market-pulse
+   ```
+
 ## Installation
 
 This is a private package. You can install it using one of the following methods:
@@ -128,4 +134,3 @@ Vercel automatically installs dependencies from Git during build. Make sure your
 If using a private npm registry, set these in your serverless environment:
 - `NPM_TOKEN` - Your npm authentication token
 - `NPM_REGISTRY` - Your private registry URL (if different from default)
-
