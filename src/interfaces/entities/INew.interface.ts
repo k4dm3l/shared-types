@@ -1,3 +1,6 @@
+import { NewsSource } from "../../enums/news-source";
+import { NewsTypes } from "../../enums/news-types";
+
 export interface INew {
   id: string;
   publisher: {
@@ -21,6 +24,6 @@ export interface INew {
   }[];
   syncedAt: Date;
   likes: number;
-  source: string;
-  type: string;
+  source: NewsSource;
+  type: NewsTypes;
 }
