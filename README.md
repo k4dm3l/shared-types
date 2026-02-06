@@ -1,6 +1,6 @@
 # @trm-market-pulse/shared-types
 
-Shared types, enums, and interfaces for TRM Market Pulse projects.
+Shared types, enums, and interfaces for Tracker projects.
 
 ## How to publish a new version?
 

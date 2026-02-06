@@ -1,7 +1,7 @@
 {
   "name": "@trm-market-pulse/shared-types",
-  "version": "1.0.4",
-  "description": "Shared types, enums, and interfaces for TRM Market Pulse projects",
+  "version": "1.0.5",
+  "description": "Shared types, enums, and interfaces for Tracker projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

@@ -71,3 +71,12 @@ export * from './interfaces/services/ITreshold.service';
 export * from './interfaces/services/ITrmRate.service';
 export * from './interfaces/services/IUser.service';
 
+// Interfaces - Utils
+export * from './interfaces/utils/ITresholdUtils';
+export * from './interfaces/utils/INotifications';
+export * from './interfaces/utils/ISubscriptionUpdate';
+export * from './interfaces/general/INotificationMessage';
+export * from './interfaces/general/INotificationResult';
+export * from './interfaces/general/INotificationHandlers';
+export * from './interfaces/general/ISubscriptionUpdateHandlers';
+
